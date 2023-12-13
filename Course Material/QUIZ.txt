@@ -1,0 +1,251 @@
+Hi, Anushka. When you submit this form, the owner will see your name and email address.
+Required
+1.What is the class-level annotation which indicates that the class has @Bean definition methods?
+(1 Point)
+
+@Autowired
+
+@Configuration
+
+@PropertyResource
+
+@ImportResource
+2.Which attribute is used to specify class name of the bean?
+(1 Point)
+
+name
+
+id
+
+class
+
+className
+3.What is the Spring annotation tells that a method produces a bean to be managed by the Spring container?
+(1 Point)
+
+@BeanFactory
+
+@Bean
+
+@Qualifier
+
+@Configuration
+4.Select all the implemented classes of ApplicationContext interface from the below in our Demos?
+(1 Point)
+Please select 2 options.
+
+FileSystemClassPathXMLContext
+
+ClasspathXMLContext
+
+ClassPathXmlApplicationContext
+
+AnnotationConfigContext
+
+ClassPathSystemApplicationContext
+
+AnnotationConfigApplicationContext
+5.Which of the class is used to contain the information about the database such as driver class name, connnection URL, username and password ?
+(1 Point)
+
+JdbcTemplate
+
+DriverManagerDataSource
+
+DriverDataSource
+
+JdbcDataSource
+
+DriverManagerSource
+6.What is the subelement of <bean> is used for constructor injection?
+(1 Point)
+
+<property>
+
+<constructor>
+
+<constructor-arg>
+
+<ref>
+
+<constructor arg>
+
+<constructor_arg>
+7.Assume you have defined 2 custom methods setUp() and clean() methods in the Customer bean class to perform certain actions upon initialization and destruction, how would you update the same in spring configuration file?
+(1 Point)
+
+<bean id="customer" class="com.spring.Customer" init-method="setUp()" destroy-method="clean()"></bean>
+
+<bean id="customer" class="com.spring.Customer" init-method="setUp" destroy-method="clean"></bean>
+
+<bean id="customer" class="com.spring.Customer" init="setUp()" destroy="clean()"></bean>
+
+<bean id="customer" class="com.spring.Customer" init="setUp" destroy="clean"></bean>
+8.What are the 2 containers that we have in Spring IOC?
+(1 Point)
+
+BeanFactory
+
+InitializingBean
+
+ApplicationFactory
+
+ApplicationContext
+
+BeanContext
+9.Which of the below tag is used to activate the annotations inside the beans which are already registered with the Application context
+(1 Point)
+
+<annotation-config>
+
+<context:annotation-config>
+
+<xml:annotation-config>
+
+<bean:annotation-config>
+10.Developer wants to instruct container to create new instance of a bean everytime when it requested. Pick up the scope which matches to the above requirement?
+(1 Point)
+
+session
+
+request
+
+prototype
+
+global session
+
+singleton
+11.<bean id="dao" class="com.spring.ProductDao">
+     <property name="template" ref="jdbctemplate">
+</bean>
+
+As per the above code what injection should have been done already for the property 'template' in ProductDao class?
+(1 Point)
+
+setter injection
+
+constructor injection
+
+both of the above
+
+none of the above
+12.Which annotation is used to identify specific bean when you have several implementations of same type to avoid ambiguity issues in injecting beans?
+(1 Point)
+
+@Required
+
+@Bean
+
+@Qualifier
+
+@Autowired
+13.Which method is responsible for retrieving a bean instance from the Spring container?
+(1 Point)
+
+get()
+
+getBean()
+
+getObject()
+
+toString()
+14.Select all the correct statements from the below?
+(1 Point)
+
+@Configuration is a class level annotation
+
+@Configuration is a method level annotation
+
+@Autowired can be written only on property
+
+@Autowired can be written on property, setter and constructor
+
+@Autowired is a class level annotation
+
+@Bean is a method level annotation
+
+@Bean is a class level annotation
+15.What is the abstract method that we have in RowMapper interface?
+(1 Point)
+
+maprow(ResultSet rs, int rowNumber)
+
+mapRow(ResultSet rs, int rowNumber)
+
+mapRows(ResultSet rs, int rowNumber)
+
+mapRows(ResultSet rs)
+16.Which of the following is true?
+(1 Point)
+
+ApplicationContext implements BeanFactory
+
+ApplicationContext extends BeanFactory
+
+BeanFactory extends ApplicationContext
+
+BeanFactory implements ApplicationContext
+17.Which annotation is used on a method that needs to be executed after dependency injection is done to perform any initialization?
+(1 Point)
+
+@Construct
+
+@PreConstruct
+
+@PostConstruct
+
+@Postconstruct
+18.ApplicationContext in Spring is an ?
+(1 Point)
+
+abstract class
+
+interface
+
+class
+
+enum
+19.Which of the below in Spring framework provides support for internationalization (i18n) functionality?
+(1 Point)
+
+BeanFactory
+
+ApplicationContext
+
+InitializingBean
+
+DisposableBean
+20.What is a callback interface that is called for each row and maps the row of relations with the instances to the model (user-defined) class ?
+(1 Point)
+
+ResultSetExtractor
+
+RowMapper
+
+PreparedStatementSetter
+
+RowSet
+21.Which of the given syntax is correct to get a new instance of a bean each time it is asked for?
+(1 Point)
+
+<bean id=“foo” class=“test.Foo” scope=“singleton”/>
+
+<bean id=“foo” class=“test.Foo” scope=“request”/>
+
+<bean id=“foo” class=“test.Foo” scope=“prototype”/>
+
+<bean id=“foo” class=“test.Foo” />
+
+<bean id=“foo” class=“test.Foo” scope=prototype/>
+22.Select all the correct statements from the below about autowiring in Spring?
+(1 Point)
+
+The byName mode injects the object dependency according to name of the bean. In such case, property name and bean name must be same. It internally calls setter method.
+
+The byName mode injects the object dependency according to name of the bean. In such case, property name and bean name must not be same. It internally calls setter method.
+
+The byType mode injects the object dependency according to type. So property name and bean name can be different. It internally calls setter method.
+
+The constructor mode injects the dependency by calling the constructor of the class.
+
+The byType mode injects the object dependency according to type. So property name and bean name must be same. It internally calls setter method.

@@ -1,0 +1,259 @@
+External clients communicate with microservices using
+(1 Point)
+
+API
+
+Messaging
+
+API Gateway
+
+API Proxy
+2.What is the built-in library in Spring Boot used to serialize objects to JSON format
+(1 Point)
+
+JsonFormatter
+
+Gson
+
+MessageConverter
+
+Jackson
+3.What annotation can be used to integrate Resilience4j with a method in Spring for managing resilience?
+(1 Point)
+
+@Resilience4j
+
+@CircuitBreaker
+
+@Fallback
+
+@RetryOnFailure
+4.What is the difference between PUT and PATCH in REST API
+(1 Point)
+
+PUT is used to update the resource, while PATCH is used to create a resource
+
+PUT is used to retrieve data, while PATCH is used to update data
+
+PUT is used to delete the resource, while PATCH is used to update the resource
+
+PUT completely replaces the resource, while PATCH modifies only the fields specified in the request body
+5.Spring Initializer
+(1 Point)
+
+A tool for creating a Spring Boot application with a specific set of features
+
+Option 2
+
+A web-based tool for generating a basic Spring Boot project structure
+
+A tool for initializing a Spring-based application with a specific set of dependencies
+
+A command-line tool for generating a basic Spring Boot project structure
+6.Actuator Dependency
+(1 Point)
+
+springboot-starter-actuator
+
+Spring-Boot-Starter-Actuator
+
+spring-boot-starter-actuator
+
+spring-boot-actuator
+7.Which ensures to insulate the applications by acting as a barrier
+(1 Point)
+
+Service deployment
+
+Microservice chassis
+
+API gateway
+
+Security control
+8.Purpose of the Spring Boot DevTools
+(1 Point)
+
+To provide a way to access the underlying database of a Spring Boot application
+
+To provide a way to run Spring Boot applications in a development environment
+
+To provide hot-reloading of code changes
+
+To provide a way to run Spring Boot applications as a service
+9.What acts as a database of services their instances and corresponding location.
+(1 Point)
+
+Domain Registry
+
+Service Registry
+
+Data Management
+
+Service Deployment
+10.What strategy is commonly used for generating primary keys in JPA entities?
+(1 Point)
+
+@SequenceGenerator
+
+@PrimaryKey
+
+@GeneratedValue
+
+@TableGenerator
+11.Which annotation is used to mark an entity class in Spring Data JPA?
+(1 Point)
+
+@EntityClass
+
+@EntityMapping
+
+@Entity
+
+@Persistence
+12.What annotation is used to map value to the method argument in http://localhost/factorial/{value}
+(1 Point)
+
+@RequestParam
+
+@Map
+
+@Param
+
+@PathVariable
+13.Which method is used in a Spring Data JPA repository to retrieve all records of an entity?
+
+(1 Point)
+
+fetchRecords()
+
+findAll()
+
+getAll()
+
+retrieveAll()
+14.Microservice is considered as a subset of SOA
+(1 Point)
+
+Often
+
+False
+
+Sometimes
+
+True
+15.For an entity class Car(id, model,year) which of these methods are automatically synthesised in JpaRepository
+(1 Point)
+
+findByModelAndIdAndYear
+
+findByModel
+
+findModel
+
+findCarByModel
+16.What is the difference between Spring and Spring Boot
+(1 Point)
+
+Spring Boot is a front-end framework, while Spring is a back-end framework
+
+Spring is a Java framework, while Spring Boot is a Java library
+
+Spring Boot is an opinionated version of Spring, providing a set of default configurations
+
+Spring Boot is a lightweight version of Spring, while Spring is a full-featured framework
+17.Identify the key aspects for successful service discovery solution.
+(1 Point)
+
+Service lookup
+
+Service discovery
+
+Service registration
+
+consistency of information across the instances
+18.Spring Boot is used for developing
+(1 Point)
+
+Web applications
+
+Distributed applications (Restful web services)
+
+All of the options
+
+Microservices
+19.Annotation enables the auto-configuration of Spring ApplicationContext by scanning the classpath components and registering the beans
+(1 Point)
+
+@EnableAutoComponentScan
+
+@EnableAutoConfiguration
+
+@SpringBootConfiguration
+
+@EnableJavaConfiguration
+20.Which concept in Spring Cloud Gateway allows the modification of incoming and outgoing requests?
+(1 Point)
+
+Handlers
+
+Filters
+
+Interceptors
+
+Transformers
+21.Which starter dependency is used to develop web applications or Restful web services?
+(1 Point)
+
+spring-boot-starter-web
+
+spring-boot-starter-data-jpa
+
+spring-boot-starter-restful
+
+spring-boot-starter-rest
+22.The two types of service discovery includes client-side discovery and server-side discovery
+(1 Point)
+
+True
+
+False
+23.@RestController annotation is a combination of the below two annotations
+(1 Point)
+
+@Service and @ResponseBody annotations
+
+@Rest and @ResponseBody annotations
+
+@Controller and @ResponseBody annotations
+
+@Component and @ResponseBody annotations
+24.Which of the following is NOT a resilience module provided by Resilience4j?
+(1 Point)
+
+Rate Limiter
+
+Retry
+
+Circuit Breaker
+
+Queue Management
+25.Which actuator endpoint displays arbitrary application information
+(1 Point)
+
+/metric
+
+/trace
+
+/health
+
+/info
+26.Which helps to control and limit the number of consecutive request failure that cross a threshold.
+(1 Point)
+
+Review breaker
+
+Service deployment
+
+Microservice chassis
+
+Circuit breaker
